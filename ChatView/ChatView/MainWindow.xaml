@@ -1,0 +1,252 @@
+﻿<Window x:Class="ChatView.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChatView"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="730" Width="700" WindowStartupLocation="CenterScreen" >
+    <Grid Background="Black" >
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="8*"></RowDefinition>
+            <RowDefinition Height="1.5*"></RowDefinition>
+            <RowDefinition Height="0.7*"></RowDefinition>
+
+
+        </Grid.RowDefinitions>
+
+        <Grid Background="Black" Name="grid">
+            <Label
+                Height="50"
+                Width="250"
+                FontSize="30"
+                Content="Əmiraslan Əliyev"
+                Foreground="White"
+                FontWeight="Bold" 
+                Margin="0,0,280,0"
+            ></Label>
+            <Border 
+              Height="55" 
+              Width="60" 
+              CornerRadius="50"
+              Margin="550,0,0,0"
+              MouseEnter="Border_MouseEnter"
+                MouseLeave="Border_MouseLeave">
+                <Border.Background >
+                    <ImageBrush ImageSource="Images/Profil2.png"></ImageBrush>
+                </Border.Background>
+                <Border 
+                  Height="13" 
+                  Width="13"
+                  Background="#6E48AA"
+                  CornerRadius="10"
+                    Margin="38,40,0,0">
+
+                </Border>
+            </Border>
+
+            <Image 
+                Height="40" 
+                Width="60"
+                Margin="0,10,620,0"
+                Source="Images/iconback.png">
+
+            </Image>
+
+        </Grid>
+        <Grid Grid.Row="1" Background="Black" Name="grid_row1">
+            
+            
+            <ListBox 
+             Background="Black" 
+             BorderThickness="0"
+             Name="listbox"
+             
+             >
+                
+                <ListBoxItem>
+                    <!--<TextBlock 
+                    Height="60"
+                    Width="auto"
+                    Margin="20,90,0,0"
+                    Background="#6E48AA"
+                    FontSize="17"
+                    Text="Qruzdayam yetim"
+                    Padding="2,20,0,0"
+                    ></TextBlock>-->
+
+
+                    <!--<Grid Height="auto" Width="200" Margin="450,20,0,0">
+
+                    <Grid.RowDefinitions >
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    
+
+                    <Grid>
+                        <Border  
+                    
+                          CornerRadius="10"
+                           Background="Bisque"
+                           HorizontalAlignment="Left"
+                        Margin="0,0,0,0" Grid.RowSpan="3">
+
+                            <TextBlock 
+                          VerticalAlignment="Center"
+                          TextWrapping="Wrap"
+                          Height="auto"
+                            Padding="10,0,10,0"
+                            FontSize="20"
+                          Text="ala sabah gedirik de he gedh etajajhhsdfg
+                                  sd saasd asd ">
+
+                            </TextBlock>
+
+                        </Border>
+
+                        
+                    </Grid>
+
+                    <Grid Grid.Row="1">
+                        <Label Content="11:54" Foreground="Wheat">
+                            
+                        </Label>
+                    </Grid>
+                    
+                </Grid>-->
+
+
+
+
+
+
+                </ListBoxItem>
+            </ListBox>
+            
+            
+        </Grid>
+        <Border  Grid.Row="2" Height="60" Background="#292828"  Width="650" CornerRadius="25" Margin="0,0,0,15">
+            <Grid>
+                <TextBox 
+                    BorderThickness="0" 
+                    Background="#292828" 
+                    Height="40" Width="500" 
+                    Margin="-20,0,0,0"
+                    FontSize="17"
+                    Foreground="White"
+                    Name="txB_main"
+                    LostFocus="txB_main_LostFocus"
+                    Padding="0,7,0,0">
+
+                </TextBox>
+
+                <TextBox 
+                    BorderThickness="0" 
+                    Background="#292828" 
+                    Height="40" Width="500" 
+                    Margin="-20,0,0,0"
+                    FontSize="17"
+                    Foreground="White"
+                    Text="Enter a message..."
+                    Padding="0,7,0,0"
+                    Name="txB_second"
+                    GotFocus="txB_second_GotFocus">
+
+                </TextBox>
+
+                <Image 
+                    Height="30"  
+                    Width="40" 
+                    Margin="0,0,600,0"
+                    Source="Images/iconplus.png">
+
+                </Image>
+
+                <Image
+                  Height="25"
+                  Width="30"
+                  Margin="600,0,0,0"
+                  Source="Images/iconsend.png">
+
+                </Image>
+
+                <Button 
+                    Name="btn_send"
+                    Height="25" 
+                    Width="30"
+                    Margin="600,0,0,0"
+                    BorderThickness="0" 
+                    Click="btn_send_Click"                   
+                    >
+                    <Button.Background>
+                        <ImageBrush 
+                          ImageSource="Images/iconsend.png">
+                        </ImageBrush>
+                    </Button.Background>
+                    <Button.Style>
+                        <Style TargetType="{x:Type Button}">
+                            <Setter Property="Background" Value="Green"/>
+                            <Setter Property="Template">
+                                <Setter.Value>
+                                    <ControlTemplate TargetType="{x:Type Button}">
+                                        <Border Background="{TemplateBinding Background}">
+                                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Setter.Value>
+                            </Setter>
+                            <Style.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="DarkGoldenrod"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </Button.Style>
+                </Button>
+                <Image
+                  Height="30"
+                  Width="30"
+                  Margin="520,0,0,0"
+                  Source="Images/iconpicture.png">
+
+                </Image>
+
+
+            </Grid>
+
+
+        </Border>
+
+        <Grid Grid.Row="3" >
+            <Image
+             Height="30"
+                Width="50"
+                Source="Images/icontriangle.png"
+                Margin="0,0,460,0">
+
+            </Image>
+            <Image
+             Height="30"
+                Width="50"
+                Source="Images/iconcircle.png"
+                >
+
+            </Image>
+
+            <Image
+             Height="30"
+                Width="50"
+                Source="Images/iconsquare.png"
+                Margin="460,0,0,0"
+                >
+
+            </Image>
+
+        </Grid>
+
+    </Grid>
+</Window>

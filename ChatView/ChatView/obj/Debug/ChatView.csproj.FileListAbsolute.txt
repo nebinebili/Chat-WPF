@@ -1,0 +1,35 @@
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\bin\Debug\ChatView.exe.config
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\bin\Debug\ChatView.exe
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\bin\Debug\ChatView.pdb
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\ChatView.csproj.AssemblyReference.cache
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\MainWindow.g.cs
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\App.g.cs
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\ChatView_MarkupCompile.cache
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\ChatView_MarkupCompile.lref
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\MainWindow.baml
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\ChatView.g.resources
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\ChatView.Properties.Resources.resources
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\ChatView.csproj.GenerateResource.cache
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\ChatView.csproj.CoreCompileInputs.cache
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\ChatView.exe
+C:\Users\Nebi_xf42\source\repos\ChatView\ChatView\obj\Debug\ChatView.pdb
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\bin\Debug\ChatView.exe.config
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\bin\Debug\ChatView.exe
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\bin\Debug\ChatView.pdb
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\MainWindow.g.cs
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\App.g.cs
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\ChatView_MarkupCompile.cache
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\ChatView_MarkupCompile.lref
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\MainWindow.baml
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\ChatView.g.resources
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\ChatView.Properties.Resources.resources
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\ChatView.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\ChatView.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\ChatView.exe
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\ChatView.pdb
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\Chat Message.g.cs
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\Chat Message.baml
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\ChatView.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\bin\Debug\Faker.Net.4.7.dll
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\bin\Debug\de-DE\Faker.Net.4.7.resources.dll
+C:\Users\Admin\Desktop\ChatView\ChatView\ChatView\obj\Debug\ChatView.csproj.CopyComplete

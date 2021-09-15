@@ -1,0 +1,70 @@
+﻿<UserControl x:Class="ChatView.Chat_Message"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ChatView"
+             mc:Ignorable="d" 
+              d:DesignWidth="300">
+
+
+
+    <Grid  Height="auto" Width="250" Name="grid_chat">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Border  
+               Name="border"   
+               CornerRadius="10"
+               Background="Bisque"
+               HorizontalAlignment="Left"
+              
+               >
+
+            <TextBlock 
+                  Name="txtblock"
+                  VerticalAlignment="Center"
+                  TextWrapping="Wrap"
+                  Height="auto"
+                  Padding="10,15,10,15"
+                  FontSize="17"
+                  Foreground="White"
+                >
+
+            </TextBlock>
+
+        </Border>
+
+        <Grid Grid.Row="1" Name="grid_time">
+            <Label 
+                Content="11:54"
+                FontSize="9"
+                Foreground="White"
+                Name="lbl_time"
+                HorizontalAlignment="Right">
+                
+            </Label>
+        </Grid>
+        
+    </Grid>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</UserControl>
